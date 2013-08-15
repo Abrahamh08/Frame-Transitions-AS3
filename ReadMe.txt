@@ -2,9 +2,9 @@ Using this file is very easy.  All you have to do is put the file in the locatio
 
 If you were to use a transition such as 'fade.as' to go to Scene 2 frame 3, you would write this in your fla or main class file: 
 
-import fade;
+import Fade;
 stop();
 
-fade.fadeintoframe(root, stage, 3, 'Scene 2');
+Fade.fadeIntoFrame(root, stage, 3, 'Scene 2');
 
 Root and Stage are parameters required to be passed on to the Class.
